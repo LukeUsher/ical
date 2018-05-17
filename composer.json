@@ -1,0 +1,25 @@
+{
+  "name": "lukeusher/ical",
+  "description": "Provides a facade for the eluceo/ical package.",
+  "keywords": ["laravel", "ical"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luke Usher",
+      "email": "luke.usher@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "illuminate/support": "~5.0",
+    "eluceo/ical": "^0.11.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "~2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "LukeUsher\\Ical\\": "src/"
+    }
+  }
+}
